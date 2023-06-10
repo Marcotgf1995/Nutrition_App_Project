@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C2BAD56E2A33FA800096A966 /* Nutrition_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAD56D2A33FA800096A966 /* Nutrition_AppApp.swift */; };
-		C2BAD5702A33FA800096A966 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAD56F2A33FA800096A966 /* ContentView.swift */; };
+		C2BAD5702A33FA800096A966 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAD56F2A33FA800096A966 /* MainView.swift */; };
 		C2BAD5722A33FA800096A966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BAD5712A33FA800096A966 /* Assets.xcassets */; };
 		C2BAD5752A33FA800096A966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BAD5742A33FA800096A966 /* Preview Assets.xcassets */; };
 		C2BAD57F2A33FA810096A966 /* Nutrition_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BAD57E2A33FA810096A966 /* Nutrition_AppTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		C2BAD56A2A33FA800096A966 /* Nutrition_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrition_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BAD56D2A33FA800096A966 /* Nutrition_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition_AppApp.swift; sourceTree = "<group>"; };
-		C2BAD56F2A33FA800096A966 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C2BAD56F2A33FA800096A966 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C2BAD5712A33FA800096A966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2BAD5742A33FA800096A966 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C2BAD57A2A33FA810096A966 /* Nutrition_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nutrition_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				C2BAD56D2A33FA800096A966 /* Nutrition_AppApp.swift */,
-				C2BAD56F2A33FA800096A966 /* ContentView.swift */,
+				C2BAD56F2A33FA800096A966 /* MainView.swift */,
 				C2BAD5712A33FA800096A966 /* Assets.xcassets */,
 				C2BAD5732A33FA800096A966 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2BAD5702A33FA800096A966 /* ContentView.swift in Sources */,
+				C2BAD5702A33FA800096A966 /* MainView.swift in Sources */,
 				C2BAD56E2A33FA800096A966 /* Nutrition_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
